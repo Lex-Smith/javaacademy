@@ -7,10 +7,10 @@ import java.util.Queue;
 
 public class LuggageSpace {
 
-    private static Queue<Suitcase> suitcasesList = new LinkedList<>();
-    private static Employee employee1 = new Employee("Иваныч");
-    private static Employee employee2 = new Employee("Василич");
-    private static Employee employee3 = new Employee("Петрович");
+    private Queue<Suitcase> suitcasesList = new LinkedList<>();
+    private Employee employee1 = new Employee("Иваныч");
+    private Employee employee2 = new Employee("Василич");
+    private Employee employee3 = new Employee("Петрович");
 
     public void planeArrival(String flightNumber) {
         for (int i = 0; i < 20; i++) {
