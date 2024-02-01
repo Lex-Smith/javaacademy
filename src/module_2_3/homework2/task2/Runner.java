@@ -16,5 +16,7 @@ public class Runner {
         items.put(item3, 3);
 
         System.out.println(items.get(item3));
+        Integer value = items.get(new Item("Апельсин"));
+        System.out.println(value);
     }
 }
